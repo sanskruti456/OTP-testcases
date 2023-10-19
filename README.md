@@ -2,7 +2,7 @@
 # Import your functions here
 
 import pytest
-import OTP_SVG_V3 as otp
+import OTP as otp
 import unittest
 
 
@@ -34,7 +34,7 @@ class TestOTPFunctions(unittest.TestCase):
 
     def test_validateMobile(self):
         """Test validate Mobile number."""
-        mobile = "9022255275"
+        mobile = "058469912"
         result = otp.validateMobile(mobile)
         expected = True
 
