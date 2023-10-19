@@ -34,7 +34,7 @@ class TestOTPFunctions(unittest.TestCase):
 
     def test_validateMobile(self):
         """Test validate Mobile number."""
-        mobile = "058469912"
+        mobile = "7058469912"
         result = otp.validateMobile(mobile)
         expected = True
 
